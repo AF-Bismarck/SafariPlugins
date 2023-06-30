@@ -1,5 +1,5 @@
 (function(host){ 
-        var interval = ms, increment = 1, pairs = window.location.search.substring(1).split("&");
+        var interval = 3, increment = 1, pairs = window.location.search.substring(1).split("&");
 
         for(var i = 0; i < pairs.length; i++){
           var pair = pairs[i].split("="),
